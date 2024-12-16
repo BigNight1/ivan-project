@@ -17,9 +17,13 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    font-family: serif;
+
 }
 .color-titulo{
+    font-size: 24px;
     color: #a61e4d;
+    font-weight: 600;
 }
 .box-redes{
     display: flex;
@@ -37,6 +41,9 @@
 }
 .redes{
     text-decoration: none;
+    font-size: 16px;
     color: white;
+    font-weight: 600;
+    font-family: serif;
 }
 
