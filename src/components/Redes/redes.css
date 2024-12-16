@@ -1,0 +1,42 @@
+.Box_Redes{
+    max-width: 650px;
+    margin: auto;
+}
+.principal{
+    background-color: blue;
+}
+.img-logo{
+    height: 100px;
+    border-radius: 9999px;
+}
+
+.Logo-Description{
+    text-align: center;
+}
+.sub-description{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.color-titulo{
+    color: #a61e4d;
+}
+.box-redes{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+.caja-redes{
+    text-align: center;
+
+    width: 100%;
+    padding: 1rem;
+    background-color: #f88fb4;
+    
+}
+.redes{
+    text-decoration: none;
+    color: white;
+}
+
