@@ -4,14 +4,14 @@ import FAQ from "./FAQ/FAQ";
 
 const Redes = () => {
   return (
-    <div>
+    <div className="fondo">
       <div className="Box_Redes">
         <div className="text-center">
           <div className="flex justify-center">
             <img
               src="https://taplink.st/a/8/2/3/8/b75e4c.jpg?3"
               alt="Logo"
-              className="h-[100px] rounded-full "
+              className="h-[125px] rounded-full "
             />
           </div>
 
@@ -22,26 +22,28 @@ const Redes = () => {
           </div>
         </div>
         <div className="box-redes">
-          <div className="caja-redes">
-            {/*  cambie el "#" por la URL de la pagina de instagram  */}
-            <a href="#" className="redes">
-              INSTAGRAM
-            </a>
-          </div>
-          {/* cambie el numero "924548268" por el de tu primo o la empresa  */}
-          <div className="caja-redes">
-            <a
-              href="https://api.whatsapp.com/send/?phone=%2B51924548268&text&type=phone_number&app_absent=0"
-              target="__BLANK"
-              className="redes"
-            >
-              WHATSAPP
-            </a>
-          </div>
+          {/* Enlace a Instagram */}
+          <a
+            href="https://www.instagram.com/" /* Cambia por la URL de Instagram */
+            target="_blank"
+            rel="noopener noreferrer"
+            className="caja-redes"
+          >
+            INSTAGRAM
+          </a>
+
+          {/* Enlace a WhatsApp */}
+          <a
+            href="https://api.whatsapp.com/send/?phone=%2B51924548268&text&type=phone_number&app_absent=0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="caja-redes"
+          >
+            WHATSAPP
+          </a>
         </div>
         {/* PREGUNTAS Y RESPUESTAS  */}
         <FAQ />
-        <footer className="text-center py-2 uppercase text-[14px]">@Created Edu el kchero de ivan</footer>
       </div>
     </div>
   );
